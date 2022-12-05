@@ -54,7 +54,7 @@ fun NavPengeluaran(){
             .background(Color.White), contentAlignment = Alignment.TopCenter
     ) {
 
-        Text(text = "Pengeluaran",fontSize = 25.sp,
+        Text(text = "Pemasukan",fontSize = 25.sp,
             style = MaterialTheme.typography.h4, textAlign = TextAlign.Center)
 
         Column(
@@ -67,7 +67,7 @@ fun NavPengeluaran(){
             var text5 by remember { mutableStateOf(TextFieldValue("")) }
             OutlinedTextField(
                 value = text,
-                label = { Text(text =  "Nominal Pengeluaran") },
+                label = { Text(text =  "Nominal Pemasukan") },
                 onValueChange = {
                     text = it
                 }

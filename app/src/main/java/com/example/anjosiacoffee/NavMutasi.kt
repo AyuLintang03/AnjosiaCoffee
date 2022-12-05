@@ -52,10 +52,10 @@ fun NavMutasi(){
                 Column(
                     Modifier.padding(top = 20.dp)
                 ) {
-                    val icon = if (mExpanded)
-                        Icons.Filled.KeyboardArrowUp
-                    else
-                        Icons.Filled.KeyboardArrowDown
+                    val icon = if (mExpanded){
+                        Icons.Filled.KeyboardArrowUp}
+                    else{
+                        Icons.Filled.KeyboardArrowDown}
 
 
                         OutlinedTextField(

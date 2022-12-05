@@ -32,7 +32,6 @@ fun NavPenjualan() {
             Modifier.padding(top = 70.dp)
         ) {
             var title by remember { mutableStateOf(TextFieldValue("")) }
-            var text by remember { mutableStateOf(TextFieldValue("")) }
             var text2 by remember { mutableStateOf(TextFieldValue("")) }
             var title3 by remember { mutableStateOf(TextFieldValue("")) }
             var text4 by remember { mutableStateOf(TextFieldValue("")) }
@@ -43,14 +42,6 @@ fun NavPenjualan() {
                 label = { Text(text =  "Nominal Penjualan") },
                 onValueChange = {
                     title = it
-                }
-            )
-
-            OutlinedTextField(
-                value = text,
-                label = { Text(text =  "Nominal Pengeluaran") },
-                onValueChange = {
-                    text = it
                 }
             )
 

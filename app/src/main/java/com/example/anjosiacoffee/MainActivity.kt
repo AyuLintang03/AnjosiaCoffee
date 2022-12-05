@@ -3,32 +3,19 @@ package com.example.anjosiacoffee
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.*
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Notifications
-import androidx.compose.material.icons.filled.Person
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Alignment.Companion.Center
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment.Companion.CenterHorizontally
-import androidx.compose.ui.Alignment.Companion.CenterStart
-import androidx.compose.ui.Alignment.Companion.TopCenter
-import androidx.compose.ui.Alignment.Companion.TopEnd
-import androidx.compose.ui.Alignment.Companion.TopStart
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Shape
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -60,13 +47,13 @@ class MainActivity : ComponentActivity() {
                                 BottomNavItem(
                                     name = "Transaction",
                                     "transaction",
-                                    icon = Icons.Default.Notifications,
+                                    icon = Icons.Default.Star,
 
                                 ),
                                 BottomNavItem(
                                     name = "Contact",
                                     "contact",
-                                    icon = Icons.Default.Person
+                                    icon = Icons.Default.Email
 
                                 ),
                             ),
@@ -97,13 +84,12 @@ fun Navigation(navController: NavHostController) {
         composable("contact") {
             ContactScreen()
         }
-        composable("pengeluaran"){
-            Pengeluaran()
+        composable("Pemasukan"){
+            Pemasukan()
         }
         composable("penjualan"){
             Penjualan()
         }
-
         composable("mutasi"){
             Mutasi()
         }
@@ -183,13 +169,13 @@ fun TransactionScreen(navController: NavController) {
     {
 
         Button(onClick ={
-                        navController.navigate("Pengeluaran")
+                        navController.navigate("Pemasukan")
 
         },
             Modifier.size(width = 250.dp, height = 60.dp),
             colors = ButtonDefaults.buttonColors(backgroundColor = Color(0xFF815B5B)))
         {
-            Text(text = "Pengeluaran", color = MaterialTheme.colors.primaryVariant)
+            Text(text = "Pemasukan", color = MaterialTheme.colors.primaryVariant)
         }
 
         Button(onClick = {
@@ -219,7 +205,7 @@ fun Penjualan() {
 }
 
 @Composable
-fun Pengeluaran() {
+fun Pemasukan() {
     NavPengeluaran()
 }
 

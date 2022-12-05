@@ -115,7 +115,7 @@ fun CardList(){
         modifier = Modifier.padding(top = 330.dp, start = 100.dp)
     )
     {
-        Text(text = "Tentang Palikasi", style = MaterialTheme.typography.h5)
+        Text(text = "Tentang Aplikasi", style = MaterialTheme.typography.h5)
 
     }
     Box(modifier = Modifier.padding(top = 380.dp)) {
@@ -133,7 +133,7 @@ fun CardList(){
                     buildAnnotatedString {
                         append(
                             "Aplikasi Anjosia Coffe adalah sebuah aplikasi yang" +
-                                    " dibunakan untuk mengadministrasi transaksi " +
+                                    " digunakan untuk mengadministrasi transaksi " +
                                     "penjulanan yang hanya dilakukan oleh staf atau karyawan dari " +
                                     "Anjoshia Coffe. Pada aplikasi ini terdapat fitur yaitu pengeluaran, " +
                                     "pemasukan, dan transaksi"
