@@ -1,0 +1,474 @@
+@import url("https://font.googleapis.com/css?family=Inter:400,600,900|Ubuntu+Mono:400,700|Source+Code+Pro:600|Ubuntu:700|Cabin:700");
+
+:root{
+
+	--black-haze: rgba(246, 246, 246, 1);
+	--font-family-ubuntu_mono:"Ubuntu Mono";
+	-font-size-l:24px;
+	--font-family-inter: "inter";
+	-font-size-xs:12px;
+	--star-dust: rgba(155,155,155,1);
+	--black: rgba(0,0,0,1);
+	--font-size-xs:12px;
+	--font-size-xl:32px;
+	--font-size-xxl:36px;
+	--font-size-l:24px;
+	--twinta:rgba(189,152,98,0.369);
+}
+
+*{
+
+	
+	box-sizing: border-box;
+
+}
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+    margin: 0;
+    }
+
+
+
+#halaman-utama{
+	align-items: flex-start;
+	border: 1px none;
+	max-width:1354px;
+	overflow: hidden;
+
+}
+
+.rectangel-1{
+	background-color: #E3D7C7;
+	height: 815px;
+	max-width: 1354px;
+
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.container li a{
+	margin-top: 10px;
+}
+
+.container input{
+margin-top: 10px;	
+}
+
+.navbar-brand h1{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 3px;
+    transform: translate(-30rem);
+    text-align: center;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+
+}
+
+.navbar-brand {
+    color: #005728;
+    font-size: 25px;
+}
+
+.p-k{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 100px;
+	margin-bottom: 20px;
+}
+.title .font-1{
+	color: #A67834;
+	font-family: var(--font-family-inter);
+	transform: translate(30px,-500px);
+
+}
+
+.title .font-2{
+	color: #835D5D;
+	font-family: var(--font-family-inter);
+	transform: translate(30px,-525px);
+
+}
+
+.title .font-3{
+	transform: translate(30px,-540px);
+	font-size: var(--font-size-l) ;
+
+}
+
+.b1{
+	margin-top: -450px;
+}
+
+
+.b11{
+	max-width: 1354px;
+	 opacity: 10%;
+}
+
+
+.button-login{
+	transform: translate(30px,-350px);
+	width: 191px;
+	height: 42px;
+	background-color: #976C55;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#bg1{
+	transform: translate(0,30px);
+	
+}
+
+#h1-p{
+	transform: translate(0,-900px);
+	text-align: center;
+}
+
+.container-1{
+	transform: translate(0,-410px);
+	width: 100% auto;
+	height: 800px;
+	background-color: #703723;
+}
+
+#tentang-kami{
+	transform: translate(0,70px);
+	text-align: center;
+	color: white;
+}
+
+#kontak{
+	transform: translate(0,-300px);
+	text-align: center;
+}
+
+.container-lg{
+	width: 253px;
+	height: 336px;
+	background-color: #703723;
+	border-radius: 20px;
+	border: 1xp solid;
+	
+}
+
+.container-sm{
+	transform: translate(0px, -700px);
+}
+
+.gold{
+	transform: translate(20px,-150px);
+}
+
+.gold-title h3{
+	transform: translate(0px,-130px);
+	color: white;
+	text-align: center;
+}
+
+.gold-title h5{
+	transform: translate(0px,-100px);
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+.btn-buy{
+	border-radius: 40px;
+	background-color: #72462E;
+	border: none;
+	width: 148px;
+	height: 48px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.bt-buy{
+	transform: translate(40px,-50px);
+}
+
+
+.platinum-title h3{
+	transform: translate(0px,-130px);
+	color: white;
+	text-align: center;
+}
+.platinum{
+	transform: translate(20px,-150px);
+}
+
+.platinum-title h5{
+	transform: translate(0px,-100px);
+	font-size: 18px;
+	color: white;
+	text-align: center;font-size: 18px;
+}
+
+
+
+.carfrsehener{
+	transform: translate(20px,-100px);
+}
+
+.parfurm-title h3{
+	transform: translate(0px,-130px);
+	color: white;
+	text-align: center;
+}
+.parfurm-title h5{
+	transform: translate(0px,-100px);
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.kopikhagah-title h3{
+	transform: translate(0px,-130px);
+	color: white;
+	text-align: center;
+}
+.kopikhagah-title h5{
+	transform: translate(0px,-100px);
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+.kopikhagah{
+transform: translate(20px,-120px);	
+}
+
+.halaman-utama-login{
+	width: 100%;
+	height: 100%;
+}
+
+.col-sm-6, .col-sm-3 { 
+	padding:0;}
+	 /* To remove the default bootstrap grid 15px left and right padding  */
+ 	.row { margin:0;}
+ 	 /* to set the margin-right:-15px; and margin-left:-15px to 0px */
+
+.card{
+	width: 270px;
+	height: 350px;
+	transform: translate(50px,100px);
+	margin-bottom: 80px;
+}
+
+.event img{
+	border-radius: 12px 12px 12px 12px;
+	width: 160px;
+	height: 160px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h2{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	color: #703723;
+}
+
+.card p{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.margin{
+	margin-top: 80px;
+}
+
+.card-lg{
+	position: relative;
+	top: -200px;
+	left: 50px;
+	max-width: 1154px;
+	height: 517px;
+	background-color: #E3D7C7;
+	align-items: center;
+
+}
+
+iframe{
+	margin-left: 650px;
+	transform: translate(0px,-160px);
+}
+
+.title-telepon{
+	position: relative;
+	bottom: -130px;
+	left: 50px;
+	display: inline-flex;
+	flex-direction: row;
+}
+.title-telepon p{
+	font-weight: bold;
+	margin-top: 10px;
+}
+.no-hp{
+	position: relative;
+	bottom: -130px;
+	left: 70px;
+	font-weight: bold;
+}
+
+
+.title-maps{
+	position: relative;
+	bottom: -130px;
+	left: 50px;
+	display: inline-flex;
+	flex-direction: row;
+}
+.title-maps p{
+	flex-direction: column;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.alamat{
+	position: relative;
+	bottom: -130px;
+	left: 70px;
+	font-weight: bold;
+}
+
+.title-email{
+	position: relative;
+	bottom: -130px;
+	left: 60px;
+	display: inline-flex;
+	flex-direction: row;
+}
+.title-email p{
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.email{
+	position: relative;
+	bottom: -130px;
+	left: 70px;
+	font-weight: bold;
+}
+.logo{
+	position: absolute;
+	left: 40px;
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.logo p{
+	margin-top: 40px;
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+.title-logo-alamat{
+	position: absolute;
+	left: 100px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.title-logo-alamat p {
+	margin-top: 100px;
+	margin-left: 120px;
+	font-weight: bold;
+	font-size: 16px;
+
+}
+
+.vektor-footer{
+	margin-top: -50px;
+}
+
+.vektor-footer h2{
+	position: relative;
+	bottom: -280px;
+	transform: translate(10px,10px);
+	color: white;
+}
+
+
+.vektor-footer .ig{
+position: absolute;
+display: flex;
+	transform: translate(10px,340px);
+	flex-direction: row;
+}
+
+.ig h3 a{
+	margin-left: 10px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.vektor-footer .wa{
+position: absolute;
+display: flex;
+	transform: translate(200px,340px);
+	flex-direction: row;
+}
+
+.wa h3 a{
+	margin-left: 10px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.vektor-footer .facebook{
+position: absolute;
+display: flex;
+	transform: translate(430px,340px);
+	flex-direction: row;
+}
+
+.facebook h3 a{
+	margin-left: 10px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav ul{
+	columns: 2;
+	position: relative;
+	left: 1000px;
+	top: 280px;
+	float: left;
+}
+.nav ul li{
+	list-style-type: none;
+}
+.nav ul li a{
+	text-decoration: none;
+	line-height: 50px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+	.title h5 h2 p{
+		width: 25%;
+	}
+}

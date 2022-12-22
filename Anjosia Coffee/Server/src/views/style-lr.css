@@ -1,0 +1,236 @@
+@import url("https://font.googleapis.com/css?family=Inter:400,600,900|Ubuntu+Mono:400,700|Source+Code+Pro:600|Ubuntu:700|Cabin:700");
+
+:root{
+
+	--black-haze: rgba(246, 246, 246, 1);
+	--font-family-ubuntu_mono:"Ubuntu Mono";
+	-font-size-l:24px;
+	--font-family-inter: "inter";
+	-font-size-xs:12px;
+	--star-dust: rgba(155,155,155,1);
+	--black: rgba(0,0,0,1);
+	--font-size-xs:12px;
+	--font-size-xl:32px;
+	--font-size-xxl:36px;
+	--font-size-l:24px;
+	--twinta:rgba(189,152,98,0.369);
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+  scroll-behavior: smooth;
+ }
+
+
+.login-button{
+
+	background-color: #703723;
+	align-items: flex-start;
+	border: 1px none;
+	display: flex;
+	flex-direction: column;
+	gap: 81px;
+	height: 951px;
+	overflow: hidden;
+	padding: 55px 0;
+	width: 1440px;
+	box-sizing: content-box;
+
+}
+
+.hidden, .hidden * {
+	pointer-events: none;
+	visibility: hidden;
+}
+
+.anjosia-coffee
+{
+	color: var(--black-haze);
+	font-family: var(--font-family-ubuntu_mono);
+	font-size: var(--font-size-x);
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height:normal;
+	margin-left:-5px;
+	min-height:116px;
+	text-align:center;
+	width:309px;
+}
+.kotak-login{
+	align-items: center;
+	align-self: center;
+	display: flex;
+	gap: 236px;
+	margin-left: 7px;
+	min-width: 1139px;
+}
+
+.kopi-1{
+
+	height: 407px;
+	width: 400px;
+	margin-top:100px;
+	margin-left: 70px;
+
+}
+
+.overlap-group{
+	align-items: center;
+	background-color: var(--black-haze);
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1px;
+	min-height: 388px;
+	padding: 52.2px 53px;
+	width: 400px;
+	transform: translate(700px, -400px);
+}
+
+.flex-row{
+	align-items: flex-start;
+	display: flex;
+	gap: 5px;
+	height: 15px;
+	margin-left: 20px;
+	margin-top: 12px;
+	min-width: 171px;
+}
+
+.registrasi{
+	color: #5c3926;
+	cursor: pointer;
+	font-family: var(--font-family-inter);
+	font-size: var(--font-size-xs);
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.belum-punya-akun{
+	color: var(--black);
+	font-family: var(--font-family-inter);
+	font-size: var(--font-size-xs);
+	font-weight: 400;
+	margin-top: -11px;
+	min-width: 100px;
+}
+
+.from-group .username{
+	align-items: flex-start;
+	align-self: flex-end;
+	background-color: var(--black-haze);
+	border: 1px solid;
+	border-color: var(--star-dust);
+	border-radius: 8px;
+	display: flex;
+	height: 30px;
+	margin-top: 33px;
+	min-width: 320px;
+	padding: 11px 9px;
+}
+
+.from-group2 .password{
+	align-items: flex-start;
+	align-self: flex-end;
+	background-color: var(--black-haze);
+	border: 1px solid;
+	border-color: var(--star-dust);
+	border-radius: 8px;
+	display: flex;
+	height: 30px;
+	margin-top: 33px;
+	min-width: 320px;
+	padding: 11px 9px;
+}
+
+.from-group1 .nohp{
+	align-items: flex-start;
+	align-self: flex-end;
+	background-color: var(--black-haze);
+	border: 1px solid;
+	border-color: var(--star-dust);
+	border-radius: 8px;
+	display: flex;
+	height: 30px;
+	margin-top: 33px;
+	min-width: 320px;
+	padding: 11px 9px;
+}
+
+
+.from-group2 .password{
+	letter-spacing: 0;
+	line-height: normal;
+	width: 85px;
+}
+
+.from-group .username{
+	letter-spacing: 0;
+	line-height: normal;
+	width: 85px;
+}
+
+
+.from-group .nohp{
+	letter-spacing: 0;
+	line-height: normal;
+	width: 85px;
+}
+
+.login1{
+	color: var(--black);
+	font-family: var(--font-family-inter);
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: normal;
+	min-height: 15px;
+}
+
+.login{
+	color: #ffffff;
+	font-family: var(--font-family-inter);
+	font-weight: 600px;
+	
+}
+
+.btn_login{
+	align-items: flex-start;
+	background: #976c55;
+	border: 1px none;
+	border-radius: 8px;
+	cursor: pointer;
+	display: flex;
+	height: 42px;
+	margin-top: 20px;
+	min-width: 191px;
+	padding: 13px 70px;
+	color: white;
+}
+
+.btn_register{
+	align-items: center;
+	margin-left: 55px;
+	background: #976c55;
+	border: 1px none;
+	border-radius: 8px;
+	cursor: pointer;
+	display: flex;
+	height: 42px;
+	margin-top: 20px;
+	min-width: 191px;
+	padding: 13px 70px;
+	color: white;
+}
+
+.title h1{
+	transform: translate(50px);
+	color: white;
+	font-size: 32px;
+	font-family: var(--font-family-ubuntu_mono);
+}
+.title a{
+	text-decoration: none;
+}
